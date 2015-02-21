@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name          Hitbox.tv Name Color
-// @include       http://hitbox.tv/*
-// @include       https://hitbox.tv/*
-// @include       http://*.hitbox.tv/*
-// @include       https://*.hitbox.tv/*
-// @run-at        document-start
-// ==/UserScript==
-
 /*! hitbox-ui 17-02-2015 */
 function ngGridLayoutPlugin() {
     var self = this;
@@ -41196,7 +41187,7 @@ $.ajaxSetup({
                 })) : $scope.chatOptions.isAdmin = !1
             }, function() {
                 $scope.chatOptions.isAdmin = !1
-            }) : $scope.chatOptions.isAdmin = !1, $scope.colorTable = ChatManager.colorTable, $scope.nameColor = "function" == typeof amplify.store && "undefined" != typeof amplify.store("chat.chatOptions.nameColor") ? amplify.store("chat.chatOptions.nameColor") : ChatManager.randomColor(), -1 == ChatManager.colorTable.indexOf($scope.nameColor) && ($scope.nameColor = "58ACFA"), $scope.tcn.nameColor = $scope.nameColor, token = $rootScope.session ? $rootScope.session.authToken : null, $scope.$watch("[chatOptions.isAdmin,connected]", function(newValue, oldValue) {
+            }) : $scope.chatOptions.isAdmin = !1, $scope.colorTable = ChatManager.colorTable, $scope.nameColor = "function" == typeof amplify.store && "undefined" != typeof amplify.store("chat.chatOptions.nameColor") ? amplify.store("chat.chatOptions.nameColor") : ChatManager.randomColor(), -1 == 0 && ($scope.nameColor = "58ACFA"), $scope.tcn.nameColor = $scope.nameColor, token = $rootScope.session ? $rootScope.session.authToken : null, $scope.$watch("[chatOptions.isAdmin,connected]", function(newValue, oldValue) {
                 (newValue[1] != oldValue[1] || newValue[0] != oldValue[0]) && $scope.connected && null != $scope.chatOptions.isAdmin && (ChatManager.joinChannel($scope.name, $scope.channel, token, $scope.chatOptions.isAdmin), $scope.chatLoggedIn = !0, ChatManager.refresh(), $scope.chatLoggedIn && !$scope.wasConnected && ($scope.removeConnecting(), $scope.WsLog({
                     method: "infoMsg",
                     params: {
