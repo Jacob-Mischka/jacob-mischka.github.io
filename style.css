@@ -1,0 +1,57 @@
+.home a:link{
+	text-decoration: none;
+	color: white;
+}
+
+.home a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+.about a:link{
+	text-decoration: none;
+	color: #7F7F7F;
+}
+
+.about a:visited{
+	text-decoration: none;
+	color: #7F7F7F;
+}
+
+.home{
+	text-align: center;
+}
+
+.home h1{
+	color: #4D4D4D;
+}
+
+footer{
+	position: fixed;
+	bottom: 2px;
+	right: 4px;
+	margin: 0px;
+	min-height: 0px;
+	color: #7F7F7F;
+	font-size:20px;
+	line-height:40px;
+}
+
+#footer {
+	color: #7F7F7F;
+}
+#links{
+	position: absolute;
+	bottom: 100px;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	background-color: #4D4D4D;
+}
+
