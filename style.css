@@ -26,6 +26,14 @@
 	color: #4D4D4D;
 }
 
+.home h3{
+	color: lightgrey;
+}
+
+#pets{
+	text-align: center;
+}
+
 footer{
 	position: fixed;
 	bottom: 2px;
@@ -54,4 +62,3 @@ body{
 	font-family: "Open Sans", sans-serif;
 	background-color: #4D4D4D;
 }
-
