@@ -1,0 +1,6 @@
+# static engine of your blog
+siteEngine: "jekyll"
+# root directory of your blog
+siteLocalDir: "/home/mischka/projects/mischka.me"
+# URL to your blog
+siteUrl: "http://www.mischka.me/"

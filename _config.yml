@@ -1,0 +1,16 @@
+# Site settings
+title: Jacob Mischka
+email: jacob@mischka.me
+description: The personal website of Jacob Mischka.
+baseurl: ""
+url: "http://www.mischka.me"
+permalink: pretty
+twitter_username: jacobmischka
+github_username:  jacobmischka
+
+# Build settings
+markdown: kramdown
+
+prose:
+    siteurl: "http://www.mischka.me"
+    media: "/images"
