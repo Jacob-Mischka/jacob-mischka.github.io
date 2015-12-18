@@ -1,5 +1,7 @@
 " Eevee's vimrc, with a few changes, without plugins
-" wget https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim && cp molokai.vim ~/.vim/colors/
+"
+" mkdir .vim .vim/backup .vim/swap .vim/undo .vim/colors
+" wget https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim && mv molokai.vim ~/.vim/colors/
 
 " vim mode preferred!
 set nocompatible
@@ -58,7 +60,7 @@ set softtabstop=4               " one tab = four spaces (tab key)
 set shiftround                  " only indent to multiples of shiftwidth
 set smarttab                    " DTRT when shiftwidth/softtabstop diverge
 set fileformats=unix,dos        " unix linebreaks in new files please
-set listchars=tab:↹·,extends:⇉,precedes:⇇,nbsp:␠,trail:␠,nbsp:␣
+" set listchars=tab:↹·,extends:⇉,precedes:⇇,nbsp:␠,trail:␠,nbsp:␣
                                 " appearance of invisible characters
 
 set formatoptions=crqlj         " wrap comments, never autowrap long lines

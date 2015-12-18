@@ -1,5 +1,8 @@
 " Eevee's vimrc, with a few changes
+
 " yaourt -S vim-pathogen vim-molokai vim-supertab
+" mkdir .vim .vim/backup .vim/swap .vim/undo .vim/colors
+
 
 " vim mode preferred!
 set nocompatible
