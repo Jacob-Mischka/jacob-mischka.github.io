@@ -1,4 +1,5 @@
-" Eevee's vimrc
+" Eevee's vimrc, with a few changes
+" yaourt -S vim-pathogen vim-molokai vim-supertab
 
 " vim mode preferred!
 set nocompatible
