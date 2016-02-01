@@ -1,7 +1,10 @@
 ---
 layout: page
+title: Hello
+hide: true
 ---
-![Me](/images/me.jpg){:class="profile-photo"}
+Welcome to my personal website. This is currently pretty bare, but I hope to add to it soon. Whenever I have something to say I consider noteworthy that doesn't fit in a tweet I may write about it here.
 
-## Hello
-This is my personal webpage. I don't really know what to put here just yet, besides my full name repeated 8 times.
+[More about me][1]
+
+[1]: /about
