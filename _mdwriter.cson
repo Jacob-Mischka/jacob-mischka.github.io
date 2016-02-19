@@ -4,3 +4,6 @@ siteEngine: "jekyll"
 siteLocalDir: "/home/mischka/projects/mischka.me"
 # URL to your blog
 siteUrl: "http://www.mischka.me/"
+
+sitePostsDir: "_posts/{year}/{month}/"
+fileExtension: ".md"
