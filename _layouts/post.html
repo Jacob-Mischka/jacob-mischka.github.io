@@ -1,15 +1,31 @@
 ---
 layout: default
 ---
-<div class="post">
+<section class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+	<header class="post-header">
+		<h1 class="post-title">{{ page.title }}</h1>
+		<time class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</time>
+	</header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+	<article class="post-content">
+		{{ content }}
+	</article>
+	<section class="post-comments" id="disqus_thread"></section>
+{% if jekyll.environment == "production" %}
+	<script>
+		var disqus_config = function () {
+			this.page.url = {{ page.url | prepend:site.url }};
+			this.page.identifier = {{ page.id }};
+		};
+		(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
 
-</div>
+			s.src = '//jacobmischka.disqus.com/embed.js';
+
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+	</script>
+{% endif %}
+</section>

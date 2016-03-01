@@ -4,13 +4,19 @@ email: jacob@mischka.me
 # description: The personal website of Jacob Mischka.
 baseurl: ""
 url: "http://www.mischka.me"
-permalink: pretty
+
 twitter_username: jacobmischka
 github_username:  jacobmischka
 steam_username: jacobmischka
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+exclude:
+    - node_modules
+
+sass:
+    style: compressed
 
 prose:
     siteurl: "http://www.mischka.me"
