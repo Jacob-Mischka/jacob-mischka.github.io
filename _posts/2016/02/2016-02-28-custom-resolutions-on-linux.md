@@ -5,7 +5,7 @@ date: "2016-02-28 03:06"
 ---
 It's the year of the Linux Desktop and adding a custom or unrecognized resolution is still much harder than it should be.
 
-For some reason, my monitor doesn't list 1600x900 as a resolution it can display, so a lot of games don't list that resolution as an option, even when trying to run the game in a window at that size. So here's how I fixed that. I'm running Arch Linux and an Nvidia GTX 970 using proprietary drivers. 
+For some reason, my monitor doesn't list 1600x900 as a resolution it can display, so a lot of games don't list that resolution as an option, even when trying to run the game in a window at that size. So here's how I fixed that. I'm running Arch Linux and an Nvidia GTX 970 using proprietary drivers.
 
 ## 1. Disable ModeValidation
 
@@ -54,7 +54,7 @@ If it worked, you can persist the new mode by adding the **Modeline** from step 
 		ModelName      "Ancor Communications Inc ASUS VE278"
 		HorizSync       24.0 - 92.0
 		VertRefresh     50.0 - 85.0
-		Modeline	   "1600x900_60.00"  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
+		Modeline       "1600x900_60.00"  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
 		Option         "DPMS"
 	EndSection
 
