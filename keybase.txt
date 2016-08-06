@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/jacobmischka
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.mischka.me
+  * I am jacobmischka (https://keybase.io/jacobmischka) on keybase.
+  * I have a public key ASDEDHVEYNsqs0C9AV5FZ8ZSXY6osUCFCauD7GpOFDFy-go
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010103e83d6d0b8d467fc5c62fe4f7fe10707c7c56230f81db3fbf336855e75d99560a",
+            "host": "keybase.io",
+            "kid": "0120c40c754460db2ab340bd015e4567c6525d8ea8b1408509ab83ec6a4e143172fa0a",
+            "uid": "d17ede60d1c219dc65fe037693e3c619",
+            "username": "jacobmischka"
+        },
+        "service": {
+            "hostname": "www.mischka.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1470503464,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1470503428,
+        "hash": "64e7af5e70c4b11fb75ee2402e3bf75c3d0e1cbbe349cce17d2ec145126b38e1d47c19885fbe7964a2b7afa06a320fd5b08ad3cf0ddf3d3f9d7e4b77605394f7",
+        "seqno": 562801
+    },
+    "prev": "bbe7aa5057ca16421325e29ad003326f0fe240454507d18696786bbbe8a62776",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxAx1RGDbKrNAvQFeRWfGUl2OqLFAhQmrg+xqThQxcvoKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMDNlODNkNmQwYjhkNDY3ZmM1YzYyZmU0ZjdmZTEwNzA3YzdjNTYyMzBmODFkYjNmYmYzMzY4NTVlNzVkOTk1NjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzQwYzc1NDQ2MGRiMmFiMzQwYmQwMTVlNDU2N2M2NTI1ZDhlYThiMTQwODUwOWFiODNlYzZhNGUxNDMxNzJmYTBhIiwidWlkIjoiZDE3ZWRlNjBkMWMyMTlkYzY1ZmUwMzc2OTNlM2M2MTkiLCJ1c2VybmFtZSI6ImphY29ibWlzY2hrYSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoid3d3Lm1pc2Noa2EubWUiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE2In0sImN0aW1lIjoxNDcwNTAzNDY0LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzA1MDM0MjgsImhhc2giOiI2NGU3YWY1ZTcwYzRiMTFmYjc1ZWUyNDAyZTNiZjc1YzNkMGUxY2JiZTM0OWNjZTE3ZDJlYzE0NTEyNmIzOGUxZDQ3YzE5ODg1ZmJlNzk2NGEyYjdhZmEwNmEzMjBmZDViMDhhZDNjZjBkZGYzZDNmOWQ3ZTRiNzc2MDUzOTRmNyIsInNlcW5vIjo1NjI4MDF9LCJwcmV2IjoiYmJlN2FhNTA1N2NhMTY0MjEzMjVlMjlhZDAwMzMyNmYwZmUyNDA0NTQ1MDdkMTg2OTY3ODZiYmJlOGE2Mjc3NiIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQCqV5MNBBCbOmvnWiiNHkwHWmhEur249VdUYCdt/Z4UXPlOAuQG8pA9KxXXL6K+qucnFLkmP2+2JjK6QeZlnQAmoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCAGYWApAQX1vFO6V6wq/sK15L5Oc/oH0UauaPhYu6XZqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jacobmischka
+
+==================================================================
+
