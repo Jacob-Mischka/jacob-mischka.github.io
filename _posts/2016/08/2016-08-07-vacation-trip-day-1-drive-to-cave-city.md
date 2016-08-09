@@ -22,7 +22,7 @@ Afterward, we stopped at an ice cream shop we passed on the way to the restauran
 
 ![Flower horse with terrifying eyes](/images/2016/08/horse.jpg)
 
-Another hour and a half later, and we arrived in Cave City. After checking in, we drove around a bit to peek at the shops and other attractions nearby. In addition to the Mammoth Cave, there i. Nearly everything was closed even though it was only about 7:30, but we did find a very southern souvenir shop where we bought a few items.
+Another hour and a half later, and we arrived in Cave City. After checking in, we drove around a bit to peek at the shops and other attractions nearby. Nearly everything was closed even though it was only about 7:30, but we did find a very southern souvenir shop where we bought a few items.
 
 <figure>
 	<img src="/images/2016/08/hillary-and-trump.jpg" alt="Mannequin Donald Trump in a suit and Hillary Clinton in prison clothing, outside the souvenir shop" />
