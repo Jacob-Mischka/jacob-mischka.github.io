@@ -36,4 +36,4 @@ We have another long day on the road ahead of us tomorrow, so that's all for tod
 
 I've included the entire album for the day below. Looking back on these now, I need a steadier hand when taking photos. I was trying to not hold up people behind me in the tour, but as a result there are a lot of blurry photos. I'll try to keep this in mind for the rest of the trip.
 
-<iframe src="https://goo.gl/photos/1Ad7kmHVS45kWjG87" />
+[Google Photos album](https://goo.gl/photos/1Ad7kmHVS45kWjG87)
