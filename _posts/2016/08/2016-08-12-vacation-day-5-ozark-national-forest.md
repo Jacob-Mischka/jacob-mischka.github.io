@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Vacation day 5: Ozark National Forest'
-date: '2016-08-12 23:27'
+date: '2016-08-11 23:27'
 ---
 
 Today was the main nature day of our trip: a short hike in Ozark National Forest to [Whitaker's Point][whitakers-point]. After eating from the breakfast buffet at [The Filling Station][filling-station], we stopped at Subway and I picked up a ham and turkey sub to bring on the hike as lunch.
