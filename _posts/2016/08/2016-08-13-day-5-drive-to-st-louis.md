@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Day 5: Drive to St. Louis'
+title: 'Vacation day 5: Drive to St. Louis'
 date: '2016-08-12 22:52'
 tags: vacation
 ---
