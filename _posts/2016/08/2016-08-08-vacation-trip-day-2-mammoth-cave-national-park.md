@@ -2,6 +2,7 @@
 layout: post
 title: 'Vacation trip day 2: Mammoth Cave National Park'
 date: '2016-08-08 23:35'
+tags: vacation
 ---
 
 ![Mammoth Cave entrance sign](/images/2016/08/mammoth-cave.jpg)

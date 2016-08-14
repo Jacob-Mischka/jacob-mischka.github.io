@@ -2,6 +2,7 @@
 layout: post
 title: 'Vacation day 3: Drive to Eureka Springs'
 date: '2016-08-09 23:07'
+tags: vacation
 ---
 
 There are a whole lot of trees in the United States.

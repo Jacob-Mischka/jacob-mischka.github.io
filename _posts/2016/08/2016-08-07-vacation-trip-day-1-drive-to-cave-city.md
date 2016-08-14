@@ -2,6 +2,7 @@
 layout: post
 title: 'Vacation trip day 1: Drive to Cave City'
 date: '2016-08-07 22:20'
+tags: vacation
 ---
 
 For the first vacation of my professional life, my sister and I are taking a trip south to visit some national parks. Our first destination is Cave City, KY's Mammoth Cave, so we spent today making the drive from Wisconsin to Kentucky.

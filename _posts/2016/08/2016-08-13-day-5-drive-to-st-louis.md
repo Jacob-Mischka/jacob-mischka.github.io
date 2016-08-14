@@ -1,8 +1,10 @@
 ---
-layout: "post"
-title: "Day 5: Drive to St. Louis"
-date: "2016-08-12 23:34"
+layout: post
+title: 'Day 5: Drive to St. Louis'
+date: '2016-08-12 22:52'
+tags: vacation
 ---
+
 There wasn't a whole lot to write about today, most of the time was just spent in the car driving to St. Louis.
 
 The main attraction for today was [Quigley Castle][quigley], which we were finally able to see. While it was supposed to open at 8:30, we found a sign at the gate saying it would be opening at 10 instead, so we had a little time to kill. We went back for our final view of downtown Eureka Springs, and to try to find a couple of the actual springs. We only ended up finding two, but on the way back we witnessed an old lady back into the car ahead of us when moving out of the way of a turning semi on the narrow street. Glad we were able to see that before leaving.
@@ -23,4 +25,4 @@ A pretty uneventful day, but I'm excited to get some more time tomorrow in St. L
 
 [quigley]: http://www.quigleyscastle.com/
 [mango]: http://www.mangoperu.com/
-[photos]: 
+[photos]: https://goo.gl/photos/qZ59yUqNdiYnSerK7

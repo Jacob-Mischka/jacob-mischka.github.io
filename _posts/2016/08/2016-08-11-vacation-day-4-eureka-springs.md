@@ -2,6 +2,7 @@
 layout: post
 title: 'Vacation day 4: Eureka Springs'
 date: '2016-08-10 23:00'
+tags: vacation
 ---
 
 Today was the first of our two-day stay in Eureka Springs.
