@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Vacation day 7: St Louis and drive home'
-date: '2016-08-14 12:43'
+date: '2016-08-13 12:43'
 ---
 Today we'll be returning home, so we spent the morning sightseeing around St Louis before heading homeward bound at 5.
 
