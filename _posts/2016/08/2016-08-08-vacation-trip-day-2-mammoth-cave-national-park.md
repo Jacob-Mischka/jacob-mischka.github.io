@@ -4,7 +4,6 @@ title: 'Vacation trip day 2: Mammoth Cave National Park'
 date: '2016-08-08 23:35'
 tags: vacation
 ---
-
 ![Mammoth Cave entrance sign](/images/2016/08/mammoth-cave.jpg)
 
 On the first actual day of our vacation, we rose early to spend the day in Mammoth National Park. After a disappointing but not entirely unexpected breakfast, we drove the 5 miles from our hotel to the park. It was a beautiful drive. On the way, we passed a billboard advertising kayak rentals, and agreed that we wanted to do that after the tours.

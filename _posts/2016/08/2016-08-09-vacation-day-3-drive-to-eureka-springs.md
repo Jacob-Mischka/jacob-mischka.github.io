@@ -4,7 +4,6 @@ title: 'Vacation day 3: Drive to Eureka Springs'
 date: '2016-08-09 23:07'
 tags: vacation
 ---
-
 There are a whole lot of trees in the United States.
 
 Today was another day on the road. At 8 o'clock, we checked out of our Cave City motel and hit the road for Arkansas.

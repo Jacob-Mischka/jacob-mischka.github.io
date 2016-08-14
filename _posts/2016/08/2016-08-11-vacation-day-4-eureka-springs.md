@@ -21,7 +21,7 @@ My grey shirt was noticeably soaking wet with sweat by the time our brief tour e
 
 ![Giant 60-ounce soft drink cup](/images/2016/08/big-gulp.jpg)
 
-Our primary goal of the day being to be served by rabbits, we stopped next at [Caroline's Collectibles][caroline]. The rabbit there wasn't at the counter and who I presume to be Caroline seemed preoccupied, so we left to visit their downtown and therefore probably better location, East by West. We stopped in more downtown shops along the way—spending more money—and we got directions to the bunny store from the very nice woman working in one of them.
+Our primary goal of the day being to be served by rabbits, we stopped next at [Caroline's Collectibles][carolines]. The rabbit there wasn't at the counter and who I presume to be Caroline seemed preoccupied, so we left to visit their downtown and therefore probably better location, East by West. We stopped in more downtown shops along the way—spending more money—and we got directions to the bunny store from the very nice woman working in one of them.
 
 The home of the [working bunnies][bunnies] wound up being a relatively standard gift shop, but I bought a shirt and a sticker that featured the rabbits. The fat bun at the counter—Gumbo—threw my credit card and the receipts at me, it was adorable. Before leaving the district we would return again, this time using cash so he could throw dollar bills and a dime at us.
 
