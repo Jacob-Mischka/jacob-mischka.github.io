@@ -5,7 +5,7 @@ date: '2016-08-13 12:43'
 ---
 Today we'll be returning home, so we spent the morning sightseeing around St Louis before heading homeward bound at 5.
 
-We started the day with a breakfast at [Rooster][rooster], voted "best breakfast in Missouri". At 9 o'clock it wasn't packet yet, but it definitely wasn't dead by any means. It's a nice place with a focus on local, farm-fresh ingredients and simple but tasty arrangements of them. I had the rooster slinger, a local favorite that was also recommended to me by a friend. It was like a breakfast chicken à la king with chorizo and gravy. The chorizo was a little overpowering, but overall it was very good.
+We started the day with a breakfast at [Rooster][rooster], voted "best breakfast in Missouri". At 9 o'clock it wasn't packed yet, but it definitely wasn't dead by any means. It's a nice place with a focus on local, farm-fresh ingredients and simple but tasty arrangements of them. I had the rooster slinger, a local favorite that was also recommended to me by a friend. It was like a breakfast chicken à la king with chorizo and gravy. The chorizo was a little overpowering, but overall it was very good.
 
 ![Statue of heaadless suit in Citygarden](/images/2016/08/citygarden-suit.jpg)
 

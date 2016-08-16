@@ -21,6 +21,10 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+
+	::selection {
+		background-color: rgba($brand-color, 0.6);
+	}
 }
 
 
@@ -32,7 +36,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit;
 }
 
 
@@ -80,10 +84,25 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-font-family;
     font-weight: 300;
 }
 
+h1 {
+	font-size: 2em;
+}
 
+h2 {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
 
 /**
  * Links

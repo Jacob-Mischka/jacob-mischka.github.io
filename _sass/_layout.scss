@@ -172,10 +172,6 @@
 	margin-right: 30px;
 }
 
-.page-heading {
-    font-size: 20px;
-}
-
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -186,7 +182,7 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: 0.75em;
     color: $grey-color;
 }
 
@@ -217,29 +213,25 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
-    h2 {
-        font-size: 32px;
-		margin-top: 30px;
-		margin-bottom: 5px;
+	p {
+		font-family: $post-font-family;
+	}
 
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
+	img,
+	figure,
+	div {
+		margin: $spacing-unit 0;
+	}
 
-    h3 {
-        font-size: 26px;
+	figure {
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
+		img {
+			margin: 0;
+		}
 
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
+		figcaption {
+			margin: 5px;
+			font-style: italic;
+		}
+	}
 }
