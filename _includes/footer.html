@@ -24,7 +24,9 @@
 							<span class="username">{{ site.github_username }}</span>
 						</a>
 					</li>
-					{% endif %} {% if site.twitter_username %}
+					{% endif %}
+
+					{% if site.twitter_username %}
 					<li>
 						<a href="https://twitter.com/{{ site.twitter_username }}">
 							<span class="icon  icon--twitter">
@@ -34,7 +36,21 @@
 							<span class="username">{{ site.twitter_username }}</span>
 						</a>
 					</li>
-					{% endif %} {% if site.steam_username %}
+					{% endif %}
+
+					{% if site.keybase_username %}
+					<li>
+						<a href="https://keybase.io/{{ site.keybase_username }}">
+							<span class="icon  icon--keybase">
+								{% include images/keybase2.svg %}
+							</span>
+
+							<span class="username">{{ site.keybase_username }}</span>
+						</a>
+					</li>
+					{% endif %}
+
+					{% if site.steam_username %}
 					<li>
 						<a href="http://steamcommunity.com/id/{{ site.steam_username }}">
 							<span class="icon icon--steam">

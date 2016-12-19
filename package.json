@@ -4,9 +4,8 @@
   "description": "My website",
   "main": "index.html",
   "scripts": {
-    "webpack": "webpack",
-    "webpack-watch": "webpack --progress --color --watch",
-    "webpack-prod": "webpack --optimize-minimize --optimize-dedupe",
+    "watch:webpack": "webpack --progress --color --watch",
+    "build:webpack": "webpack -p",
     "start": "bundle exec jekyll serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,13 +25,13 @@
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
     "babel-preset-es2015": "^6.6.0",
-    "css-loader": "^0.23.1",
+    "css-loader": "^0.26.1",
     "eslint": "^3.2.0",
     "file-loader": "^0.9.0",
     "reveal.js": "^3.3.0",
     "style-loader": "^0.13.1",
     "stylelint": "^7.0.3",
-    "stylelint-config-standard": "^11.0.0",
-    "webpack": "^1.13.1"
+    "stylelint-config-standard": "^15.0.1",
+    "webpack": "^2.2.0-rc.1"
   }
 }

@@ -11,7 +11,7 @@ module.exports = {
 	},
 	target: 'web',
 	module: {
-		loaders: [
+		rules: [
 			{
 				test: /\.js$/,
 				exclude: /node_modules/,
@@ -20,19 +20,19 @@ module.exports = {
 			{
 				test: /\.css$/,
 				loaders: [
-					'style',
-					'css'
+					'style-loader',
+					'css-loader'
 				]
 			},
 			{
 				test: /\.js$/,
 				include: /node_modules\/reveal.js\/plugin/,
-				loader: 'file'
+				loader: 'file-loader'
 			},
 			{
 				test: /\.(eot|woff|woff2|ttf|svg|png|jpg|gif)$/,
 				include: /node_modules/,
-				loader: 'file'
+				loader: 'file-loader'
 			}
 		]
 	},

@@ -3,11 +3,12 @@ title: Jacob Mischka
 email: jacob@mischka.me
 # description: The personal website of Jacob Mischka.
 baseurl: ""
-url: "http://www.mischka.me"
+url: "https://www.mischka.me"
 
 twitter_username: jacobmischka
 github_username:  jacobmischka
 steam_username: jacobmischka
+keybase_username: jacobmischka
 
 # Build settings
 markdown: kramdown
