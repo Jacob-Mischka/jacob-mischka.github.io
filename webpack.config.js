@@ -1,8 +1,7 @@
 /* eslint-env node */
 module.exports = {
 	entry: {
-		bundle: './_js/main.js',
-		'slides/test': './_js/slides/test.js'
+		bundle: './_js/main.js'
 	},
 	output: {
 		path: './resources/',
