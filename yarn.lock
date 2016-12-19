@@ -3640,9 +3640,9 @@ restore-cursor@^1.0.1:
     exit-hook "^1.0.0"
     onetime "^1.0.0"
 
-reveal.js@^3.3.0:
+"reveal.js@git+https://github.com/hakimel/reveal.js.git":
   version "3.3.0"
-  resolved "https://registry.yarnpkg.com/reveal.js/-/reveal.js-3.3.0.tgz#c616230f6384b66261dd70b4fb545fa5ac8c4c87"
+  resolved "git+https://github.com/hakimel/reveal.js.git#713702a0ab81d1756a30e6c14ae49afd42135541"
   dependencies:
     express "~4.13.3"
     grunt-cli "~0.1.13"
