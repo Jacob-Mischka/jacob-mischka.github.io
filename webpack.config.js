@@ -14,11 +14,11 @@ module.exports = {
 			{
 				test: /\.js$/,
 				exclude: /node_modules/,
-				loader: 'babel-loader'
+				use: 'babel-loader'
 			},
 			{
 				test: /\.css$/,
-				loaders: [
+				use: [
 					'style-loader',
 					'css-loader'
 				]
@@ -26,12 +26,12 @@ module.exports = {
 			{
 				test: /\.js$/,
 				include: /node_modules\/reveal.js\/plugin/,
-				loader: 'file-loader'
+				use: 'file-loader'
 			},
 			{
 				test: /\.(eot|woff|woff2|ttf|svg|png|jpg|gif)$/,
 				include: /node_modules/,
-				loader: 'file-loader'
+				use: 'file-loader'
 			}
 		]
 	},
