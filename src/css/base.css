@@ -1,0 +1,89 @@
+body {
+	font-family: var(--base-font-family);
+	font-size: var(--base-font-size);
+	line-height: var(--base-line-height);
+	font-weight: 300;
+	color: var(--text-color);
+	background-color: var(--background-color);
+
+	& ::selection {
+		background-color: color(var(--brand-color) alpha(0.6));
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--heading-font-family);
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+a {
+	color: var(--brand-color);
+	text-decoration: none;
+
+	&:visited {
+		color: color(var(--brand-color) blackness(15%));
+	}
+
+	&:hover {
+		color: var(--text-color);
+		text-decoration: underline;
+	}
+}
+
+blockquote {
+	color: var(--grey-color);
+	border-left: 4px solid var(--grey-color-light);
+	padding-left: 1rem;
+	font-size: 1.5rem;
+	letter-spacing: -1px;
+	font-style: italic;
+
+	& > :last-child {
+		margin-bottom: 0;
+	}
+}
+
+.wrapper {
+	max-width: calc(var(--content-width) - var(--spacing-width) * 2);
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: var(--spacing-unit);
+	padding-right: var(--spacing-unit);
+}
+
+@media (--on-desktop) {
+	.wrapper {
+		max-width: calc(var(--content-width) - var(--spacing-width));
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+.icon {
+	& > svg {
+		display: inline-block;
+		width: 1rem;
+		height: 1rem;
+		vertical-align: middle;
+
+		& path {
+			fill: var(--grey-color) !important;
+		}
+	}
+}

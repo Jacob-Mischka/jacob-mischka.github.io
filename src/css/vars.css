@@ -1,0 +1,22 @@
+:root {
+	--base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	--heading-font-family: 'Lato', sans-serif;
+	--post-font-family: 'Source Serif Pro', serif;
+	--base-font-size: 1.5rem;
+	--small-font-size: 1rem;
+	--base-line-height: 1.67;
+	--spacing-unit: 2rem;
+	--text-color: #222;
+	--background-color: #fefefe;
+	--content-background-color: #fdfdfd;
+	--header-background-color: #fefefe;
+	--footer-background-color: #fefefe;
+	--brand-color: #ff8a1f;
+	--grey-color: #828282;
+	--grey-color-light: color(var(--grey-color) lightness(15%));
+	--grey-color-dark: color(var(--grey-color) blackness(15%));
+	--spacing-width: 2rem;
+	--content-width: 800px;
+}
+
+@custom-media --on-desktop (min-width: 800px);
