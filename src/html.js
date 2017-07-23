@@ -18,12 +18,10 @@ export default class HTML extends React.Component {
 					{this.props.headComponents}
 				</head>
 				<body>
-					<main className="page-content">
-						<div id="___gatsby" className="wrapper"
-							dangerouslySetInnerHTML={{
-								__html: this.props.body
-							}}></div>
-					</main>
+					<div id="___gatsby" className="wrapper"
+						dangerouslySetInnerHTML={{
+							__html: this.props.body
+						}}></div>
 					{this.props.postBodyComponents}
 				</body>
 			</html>

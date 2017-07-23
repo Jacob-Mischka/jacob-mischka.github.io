@@ -8,32 +8,25 @@ export default class Post extends Component {
 	};
 
 	render() {
-		const post = this.props.data.markdownRemark;
+		const page = this.props.data.markdownRemark;
 
 		return (
-			<section className="post">
-				<header className="post-header">
-					<h1 className="post-title">
-						{post.frontmatter.title}
+			<section className="page">
+				<header className="page-header">
+					<h1 className="page-title">
+						{page.frontmatter.title}
 					</h1>
-			{
-				post.frontmatter.date && (
-					<time className="post-meta">
-						{post.frontmatter.date}
-					</time>
-				)
-			}
 				</header>
 
-				<article className="post-content"
-					dangerouslySetInnerHTML={{__html: post.html}}></article>
+				<article className="page-content"
+					dangerouslySetInnerHTML={{__html: page.html}}></article>
 			</section>
 		);
 	}
 }
 
 export const pageQuery = graphql`
-	query BlogPostByPath($slug: String!) {
+	query PageByPath($slug: String!) {
 		site {
 			siteMetadata {
 				title
