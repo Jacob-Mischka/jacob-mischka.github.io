@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import graphql from 'graphql';
 
+import { formatDate } from '../utils.js';
+
 export default class Post extends Component {
 	static propTypes = {
 		data: PropTypes.object
@@ -19,7 +21,7 @@ export default class Post extends Component {
 			{
 				post.frontmatter.date && (
 					<time className="post-meta">
-						{post.frontmatter.date}
+						{formatDate(post.frontmatter.date)}
 					</time>
 				)
 			}
@@ -48,6 +50,7 @@ export const pageQuery = graphql`
 			}
 			frontmatter {
 				title
+				date
 			}
 		}
 	}

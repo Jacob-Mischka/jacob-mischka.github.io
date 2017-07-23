@@ -4,6 +4,8 @@ import Link from 'gatsby-link';
 
 import graphql from 'graphql';
 
+import { formatDate } from '../utils.js';
+
 export default class Blog extends Component {
 	static propTypes = {
 		data: PropTypes.object.isRequired
@@ -13,12 +15,11 @@ export default class Blog extends Component {
 		const posts = this.props.data.allMarkdownRemark.edges.filter(edge =>
 			edge.node.frontmatter.type === 'post'
 		);
-		console.log(posts);
 
 		const postListItems = posts.map(post => (
 			<li key={post.node.fields.slug}>
 				<span className="post-meta">
-					{post.node.frontmatter.date}
+					{formatDate(post.node.frontmatter.date)}
 				</span>
 				<h2>
 					<Link to={post.node.fields.slug}
@@ -32,10 +33,11 @@ export default class Blog extends Component {
 		return (
 			<div>
 				<h1 className="page-heading">
-					<ul className="post-list">
-						{postListItems}
-					</ul>
+					Blog
 				</h1>
+				<ul className="post-list">
+					{postListItems}
+				</ul>
 			</div>
 		);
 	}
@@ -57,6 +59,7 @@ export const pageQuery = graphql`
 					frontmatter {
 						type
 						title
+						date
 					}
 				}
 			}

@@ -2,6 +2,7 @@
 	min-height: 3rem;
 	position: relative;
 	background-color: var(--header-background-color);
+	margin: 0.25em 0 1em;
 }
 
 .site-title {
@@ -35,8 +36,45 @@
 	}
 }
 
+.site-footer {
+	background-color: var(--footer-background-color);
+}
+
+.footer-heading {
+	font-size: 1.5rem;
+	margin-bottom: calc(var(--spacing-unit) / 2);
+}
+
+.contact-list,
+.social-media-list {
+	list-style: none;
+	margin-left: 0;
+}
+
+.social-media-item {
+	& .icon,
+	& .icon img {
+		width: 1em;
+		height: 1em;
+	}
+
+	& .username {
+		margin-left: 0.5em;
+	}
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	& .column {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 .page-content {
-	padding: var(--spacing-unit) 0;
 	background-color: var(--content-background-color);
 }
 
@@ -53,6 +91,11 @@
 	& > li {
 		margin-bottom: var(--spacing-unit);
 	}
+}
+
+.post-meta {
+	font-size: 0.75em;
+	color: var(--grey-color);
 }
 
 .post-link {

@@ -6,15 +6,15 @@
 	--small-font-size: 1rem;
 	--base-line-height: 1.67;
 	--spacing-unit: 2rem;
-	--text-color: #222;
+	--text-color: rgba(0, 0, 0, 0.85);
 	--background-color: #fefefe;
 	--content-background-color: #fdfdfd;
 	--header-background-color: #fefefe;
 	--footer-background-color: #fefefe;
 	--brand-color: #ff8a1f;
-	--grey-color: #828282;
-	--grey-color-light: color(var(--grey-color) lightness(15%));
-	--grey-color-dark: color(var(--grey-color) blackness(15%));
+	--grey-color: rgba(0, 0, 0, 0.5);
+	--grey-color-light: rgba(0, 0, 0, 0.35);
+	--grey-color-dark: rgba(0, 0, 0, 0.65);
 	--spacing-width: 2rem;
 	--content-width: 800px;
 }

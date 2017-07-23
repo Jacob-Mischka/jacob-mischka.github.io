@@ -1,31 +1,23 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
-export default class Header extends Component {
-	static propTypes = {
-		data: PropTypes.object.isRequired
-	}
+import { siteMetadata } from '../../gatsby-config.js';
 
+export default class Header extends Component {
 	render() {
 		return (
 			<header className="site-header">
-				<div className="wrapper">
-					<Link className="site-title" to="/">
-						Jacob Mischka
+				<Link className="site-title" to="/">
+					{siteMetadata.title}
+				</Link>
+
+				<nav className="site-nav">
+					<Link className="page-link"
+							to="/blog">
+						Blog
 					</Link>
-				</div>
+				</nav>
 			</header>
 		);
 	}
 }
-
-// export const pageQuery = graphql`
-// 	query HeaderQuery {
-// 		site {
-// 			siteMetadata {
-// 				title
-// 			}
-// 		}
-// 	}
-// `;

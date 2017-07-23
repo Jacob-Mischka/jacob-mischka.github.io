@@ -1,3 +1,13 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: var(--base-font-family);
 	font-size: var(--base-font-size);
@@ -8,6 +18,39 @@ body {
 
 	& ::selection {
 		background-color: color(var(--brand-color) alpha(0.6));
+	}
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+	margin-bottom: var(--spacing-unit);
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+figure > img {
+	display: block;
+}
+
+figcaption {
+	font-size: 0.85em;
+}
+
+ul, ol {
+	margin-left: var(--spacing-unit);
+}
+
+li {
+	& ul,
+	& ol {
+		margin-bottom: 0;
 	}
 }
 
