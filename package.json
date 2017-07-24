@@ -6,6 +6,7 @@
   "dependencies": {
     "@jacobmischka/gatsby-plugin-copy-files": "^1.0.0",
     "@jacobmischka/gatsby-plugin-react-svg": "^1.0.0",
+    "@jacobmischka/gatsby-plugin-styled-jsx": "^1.0.0",
     "date-fns": "^1.28.5",
     "gatsby": "^1.3.2",
     "gatsby-link": "^1.0.1",

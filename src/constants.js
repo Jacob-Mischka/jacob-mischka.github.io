@@ -1,5 +1,3 @@
-import React from 'react';
-
 import githubIcon from './icons/github.svg';
 import twitterIcon from './icons/twitter.svg';
 import keybaseIcon from './icons/keybase2.svg';
@@ -23,3 +21,12 @@ export const SOCIAL_MEDIA_SITES = new Map([
 		ICON: steamIcon
 	}]
 ]);
+
+export const COLORS = {
+	BRAND: '#ff8a1f',
+	BACKGROUND: '#fefefe',
+	TEXT: 'rgba(0, 0, 0, 0.85)',
+	GREY: 'rgba(0, 0, 0, 0.5)',
+	LIGHT_GREY: 'rgba(0, 0, 0, 0.35)',
+	DARK_GREY: 'rgba(0, 0, 0, 0.65)'
+};

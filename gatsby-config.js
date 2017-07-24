@@ -77,6 +77,7 @@ module.exports = {
 				source: `${__dirname}/src/images`,
 				destination: '/images'
 			}
-		}
+		},
+		'@jacobmischka/gatsby-plugin-styled-jsx'
 	]
 };
