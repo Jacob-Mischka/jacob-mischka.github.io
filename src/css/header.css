@@ -1,0 +1,33 @@
+.site-header {
+	min-height: 3rem;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin: 0.25em 0 1em;
+	background-color: var(--header-background-color);
+}
+
+.site-title {
+	font-size: 1.6rem;
+	line-height: 3rem;
+	letter-spacing: -1px;
+	margin-bottom: 0;
+
+	&,
+	&:visited {
+		color: var(--grey-color-dark);
+	}
+}
+
+.site-nav {
+	line-height: 3rem;
+
+	& .page-link {
+		line-height: 1.67;
+		color: var(--text-color);
+
+		&:not(:first-child) {
+			margin-left: 1.5rem;
+		}
+	}
+}

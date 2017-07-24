@@ -5,8 +5,6 @@ import SocialMediaItem from './SocialMediaItem.js';
 import { siteMetadata } from '../../gatsby-config.js';
 import { SOCIAL_MEDIA_SITES } from '../constants.js';
 
-import { COLORS } from '../constants.js';
-
 export default class Footer extends Component {
 	render() {
 		const socialMediaItems = Object.keys(siteMetadata.usernames).filter(site =>
@@ -23,24 +21,6 @@ export default class Footer extends Component {
 
 		return (
 			<footer className="site-footer">
-				<style jsx>
-				{`
-					.site-footer {
-						background-color: ${COLORS.BACKGROUND};
-					}
-
-					.footer-heading {
-						font-size: 1.5em;
-						margin-bottom: 1rem;
-					}
-
-					.contact-list,
-					.social-media-list {
-						list-style: none;
-						margin-left: 0;
-					}
-				`}
-				</style>
 				<div className="row">
 					<div className="column">
 						<ul className="contact-list">

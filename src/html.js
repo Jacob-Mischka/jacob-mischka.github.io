@@ -1,6 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
-import stylesStr from '!raw-loader!../public/styles.css';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class HTML extends React.Component {
 	static propTypes = {
@@ -14,7 +13,9 @@ export default class HTML extends React.Component {
 		if (process.env.NODE_ENV === 'production') {
 			css = (
 				<style id="gatsby-inlined-css"
-					dangerouslySetInnerHTML={{__html: stylesStr}}></style>
+					dangerouslySetInnerHTML={{
+						__html: require('!raw-loader!../public/styles.css')
+					}}></style>
 			);
 		}
 		return (

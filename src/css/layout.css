@@ -12,6 +12,13 @@
 	}
 }
 
+.profile-photo {
+	width: 300px;
+	float: left;
+	margin-right: 1em;
+	border-radius: 50%;
+}
+
 .page-content {
 	background-color: var(--content-background-color);
 }
@@ -23,6 +30,23 @@
 	& > li {
 		margin-bottom: var(--spacing-unit);
 	}
+
+	& h2 {
+		font-size: 1.35em;
+		line-height: 1;
+	}
+}
+
+.post {
+	& .blog-link {
+		display: block;
+		font-size: 0.75em;
+		margin-bottom: 2em;
+	}
+}
+
+.post-link {
+	display: inline-block;
 }
 
 .post-meta {

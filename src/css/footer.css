@@ -1,0 +1,26 @@
+.site-footer {
+	background-color: var(--footer-background-color);
+}
+
+.footer-heading {
+	font-size: 1.5em;
+	margin-bottom: 1rem;
+}
+
+.contact-list,
+.social-media-list {
+	list-style: none;
+	margin-left: 0;
+}
+
+.social-media-item {
+	& .icon,
+	& .icon img {
+		width: 1em;
+		height: 1em;
+	}
+
+	& .username {
+		margin-left: 0.5em;
+	}
+}
