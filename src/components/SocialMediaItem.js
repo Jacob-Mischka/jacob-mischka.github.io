@@ -27,7 +27,7 @@ export default class SocialMediaItem extends Component {
 				</style>
 				<a href={`${baseUrl}/${username}`}>
 					<span className="icon">
-						<img src={icon} alt="" />
+						<img src={icon} width="24" height="24" alt="" />
 					</span>
 					<span className="username">
 						{username}
