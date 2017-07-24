@@ -17,6 +17,18 @@ export default class Blog extends Component {
 
 		const postListItems = posts.map(post => (
 			<li key={post.node.fields.slug}>
+				<style jsx>
+				{`
+					h2 {
+						font-size: 1.35em;
+						line-height: 1;
+					}
+
+					h2 :global(.post-link) {
+						display: inline-block;
+					}
+				`}
+				</style>
 				<span className="post-meta">
 					{formatDate(post.node.frontmatter.date)}
 				</span>

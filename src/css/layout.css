@@ -30,11 +30,6 @@
 	color: var(--grey-color);
 }
 
-.post-link {
-	display: block;
-	font-size: 1.5rem;
-}
-
 .post-header {
 	margin-bottom: var(--spacing-unit);
 }

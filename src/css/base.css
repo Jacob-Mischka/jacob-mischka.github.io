@@ -22,7 +22,9 @@ body {
 }
 
 @media (--on-desktop) {
-	font-size: var(--base-font-size);
+	body {
+		font-size: var(--base-font-size);
+	}
 }
 
 /**
