@@ -10,7 +10,7 @@ dl, dd, ol, ul, figure {
 
 body {
 	font-family: var(--base-font-family);
-	font-size: var(--base-font-size);
+	font-size: var(--small-font-size);
 	line-height: var(--base-line-height);
 	font-weight: 300;
 	color: var(--text-color);
@@ -19,6 +19,10 @@ body {
 	& ::selection {
 		background-color: color(var(--brand-color) alpha(0.6));
 	}
+}
+
+@media (--on-desktop) {
+	font-size: var(--base-font-size);
 }
 
 /**
@@ -103,18 +107,17 @@ blockquote {
 }
 
 .wrapper {
-	max-width: calc(var(--content-width) - var(--spacing-width) * 2);
+	max-width: 100vw;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: var(--spacing-unit);
-	padding-right: var(--spacing-unit);
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 @media (--on-desktop) {
 	.wrapper {
-		max-width: calc(var(--content-width) - var(--spacing-width));
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
 	}
 }
 

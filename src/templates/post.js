@@ -1,6 +1,8 @@
+/* global graphql */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import graphql from 'graphql';
+import Link from 'gatsby-link';
+
 
 import { formatDate } from '../utils.js';
 
@@ -14,7 +16,19 @@ export default class Post extends Component {
 
 		return (
 			<section className="post">
+				<style jsx>
+				{`
+					.post :global(.blog-link) {
+						display: block;
+						font-size: 0.75em;
+						margin-bottom: 2em;
+					}
+				`}
+				</style>
 				<header className="post-header">
+					<Link to="/blog" className="blog-link">
+						← Back to blog
+					</Link>
 					<h1 className="post-title">
 						{post.frontmatter.title}
 					</h1>

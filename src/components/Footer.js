@@ -27,7 +27,6 @@ export default class Footer extends Component {
 				{`
 					.site-footer {
 						background-color: ${COLORS.BACKGROUND};
-
 					}
 
 					.footer-heading {
@@ -42,13 +41,10 @@ export default class Footer extends Component {
 					}
 				`}
 				</style>
-				<h2 className="footer-heading">
-					{siteMetadata.title}
-				</h2>
 				<div className="row">
 					<div className="column">
 						<ul className="contact-list">
-							<li>{siteMetadata.title}</li>
+							<li>{siteMetadata.author}</li>
 							<li>
 								<a href={`mailto:${siteMetadata.email}`}>
 									{siteMetadata.email}

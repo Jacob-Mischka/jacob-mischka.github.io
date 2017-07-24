@@ -1,6 +1,6 @@
+/* global graphql */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import graphql from 'graphql';
 
 export default class Post extends Component {
 	static propTypes = {

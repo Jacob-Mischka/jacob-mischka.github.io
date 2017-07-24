@@ -13,34 +13,34 @@ export default class Header extends Component {
 					.site-header {
 						min-height: 3rem;
 						position: relative;
-						background-color: ${COLORS.BACKGROUND};
+						display: flex;
+						justify-content: space-between;
 						margin: 0.25em 0 1em;
+						background-color: ${COLORS.BACKGROUND};
 					}
 
-					.site-title {
+					.site-header :global(.site-title) {
 						font-size: 1.6rem;
 						line-height: 3rem;
 						letter-spacing: -1px;
 						margin-bottom: 0;
-						float: left;
 					}
 
-					.site-title,
-					.site-title:visited {
+					.site-header :global(.site-title),
+					.site-header :global(.site-title:visited) {
 						color: ${COLORS.DARK_GREY};
 					}
 
 					.site-nav {
-						float: right;
 						line-height: 3rem;
 					}
 
-					.page-link {
+					.site-header :global(.page-link) {
 						line-height: 1.67;
 						color: ${COLORS.TEXT};
 					}
 
-					.page-link:not(:first-child) {
+					.site-header :global(.page-link):not(:first-child) {
 						margin-left: 1.5rem;
 					}
 				`}

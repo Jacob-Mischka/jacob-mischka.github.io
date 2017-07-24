@@ -1,8 +1,7 @@
+/* global graphql */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
-
-import graphql from 'graphql';
 
 import { formatDate } from '../utils.js';
 
