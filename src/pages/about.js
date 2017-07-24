@@ -5,6 +5,7 @@ export default class About extends Component {
 		return (
 			<div>
 				<img src="/images/me.jpg" alt="Me"
+					width="300" height="300"
 					className="profile-photo" />
 				<p>
 					I graduated from the University of Wisconsin-Whitewater
