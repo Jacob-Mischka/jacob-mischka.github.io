@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 
+import 'flickity/css/flickity.css';
 import '../css/styles.css';
 import 'typeface-lato';
 import 'typeface-open-sans';

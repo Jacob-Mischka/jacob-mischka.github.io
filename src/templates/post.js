@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
-
+import Flickity from 'flickity';
 
 import { formatDate } from '../utils.js';
 
@@ -10,6 +10,12 @@ export default class Post extends Component {
 	static propTypes = {
 		data: PropTypes.object
 	};
+
+	constructor() {
+		super();
+
+		this.createCarousels = this.createCarousels.bind(this);
+	}
 
 	render() {
 		const post = this.props.data.markdownRemark;
@@ -36,6 +42,23 @@ export default class Post extends Component {
 					dangerouslySetInnerHTML={{__html: post.html}}></article>
 			</section>
 		);
+	}
+
+	componentDidMount() {
+		this.createCarousels();
+	}
+
+	componentDidUpdate() {
+		this.createCarousels();
+	}
+
+	createCarousels() {
+		let carousels = Array.from(document.querySelectorAll('.carousel'));
+		for (let carousel of carousels) {
+			new Flickity(carousel, {
+				cover: true
+			});
+		}
 	}
 }
 

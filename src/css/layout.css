@@ -96,8 +96,29 @@
 }
 
 .carousel {
+	& .flickity-viewport,
+	& .flickity-slider,
+	& figure {
+		margin: 0;
+	}
+
+	& .flickity-viewport {
+		background: rgba(0, 0, 0, 0.75);
+	}
+
+	& .flickity-slider {
+		display: flex;
+		align-items: center;
+	}
+
 	& figure {
 		width: 100%;
+
+		& figcaption {
+			margin: 0;
+			padding: 2em;
+			background-color: var(--content-background-color);
+		}
 	}
 }
 
