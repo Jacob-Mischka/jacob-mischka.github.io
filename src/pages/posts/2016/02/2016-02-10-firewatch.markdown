@@ -4,7 +4,7 @@ title: Firewatch
 date: '2016-02-10 01:26'
 ---
 
-![Firewatch](/images/2016/02/firewatch.jpg){:style="width: 100%;"}
+![Firewatch](firewatch.jpg){:style="width: 100%;"}
 
 Firewatch came out today.
 

@@ -19,9 +19,9 @@
 	border-radius: 50%;
 }
 
-.page-content {
+/*.page-content {
 	background-color: var(--content-background-color);
-}
+}*/
 
 .post-list {
 	margin-left: 0;
@@ -93,4 +93,14 @@
 			font-style: italic;
 		}
 	}
+}
+
+.carousel {
+	& figure {
+		width: 100%;
+	}
+}
+
+hr {
+	margin: 2em;
 }
