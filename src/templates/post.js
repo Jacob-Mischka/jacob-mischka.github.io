@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
-import Flickity from 'flickity';
+import Flickity from '../flickity.js';
 
 import { formatDate } from '../utils.js';
 
