@@ -1,3 +1,5 @@
+siteEngine: "general"
+
 # root directory of your blog
 siteLocalDir: "/home/mischka/projects/mischka.me"
 # URL to your blog
@@ -5,3 +7,11 @@ siteUrl: "http://www.mischka.me/"
 
 sitePostsDir: "src/pages/posts/{year}/{month}/"
 fileExtension: ".md"
+
+frontMatter: """
+---
+type: post
+title: "<title>"
+date: "<date>"
+---
+"""
