@@ -1,7 +1,7 @@
 ---
 type: "post"
 title: "2017 Road Trip - Day 4: Presidents and drive to Wyoming"
-date: "2017-08-23 07:31"
+date: "2017-08-21 07:31"
 ---
 
 _This day is mostly a haze because I'm writing this the day after and I was extremely tired so we'll see how this goes._
