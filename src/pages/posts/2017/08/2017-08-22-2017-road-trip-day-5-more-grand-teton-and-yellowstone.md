@@ -4,6 +4,10 @@ title: "2017 Road Trip - Day 5: More Grand Teton and Yellowstone"
 date: "2017-08-22 01:06"
 ---
 
+*[Photo album][photos]*
+
+---
+
 We began the day with breakfast at The Virginian back in Jackson. It was perfect. I had a chorizo, egg, and breakfast potato skillet with house-made salsa, sour cream, and some fancy Spanish name I can't remember, served with tortilla chips. Delicious with great service and atmosphere.
 
 We planned on spending the entire day in Yellowstone, but after sitting near-motionless in traffic before the South entrance we turned around and returned to Grand Teton. We'll need to arrive earlier to enter Yellowstone tomorrow morning.
@@ -17,3 +21,5 @@ By now we decided to head to our hotel in Alta, WY, which wound up being an extr
 We finally made it to the hotel at about midnight, and I nearly immediately fell asleep. A lot more time spent in the car today than we planned, but it worked out fine.
 
 Tomorrow: more Yellowstone.
+
+[photos]: https://goo.gl/photos/s6D4FYv8uWmbNhiT8
