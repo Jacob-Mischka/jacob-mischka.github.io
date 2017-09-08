@@ -4,10 +4,6 @@ title: "2017 Road Trip - Day 1: Driving to Omaha"
 date: "2017-08-18 21:30"
 ---
 
-*More images coming later, they're still uploading and I'm tired.*
-
----
-
 We left this morning for our second annual summer national park road trip; this time to the American West. Today's agenda was pretty light, mainly making the 8ish hour drive to Omaha, Nebraska.
 
 We departed at about 7am, with nothing terribly exciting to do until we stop for breakfast. We listened to [Aziz Ansari's Modern Romance][modern-romance], which so far is better than I expected, filled with a lot of legitimate research and information thrown in with Aziz's occasional jokes.
@@ -96,9 +92,34 @@ To our dismay, the zoo, gardens, and museum were all closing when we arrived, so
 
 After walking around for about an hour we were getting pretty hungry so we grabbed a delicious pizza from the friendly and hospitable people at [Orsi's Italian Bakery and Pizzeria][orsis] and ate it in the park. Then we stopped by the Midwest Office of the National Parks Service and walked halfway across the long and shockingly elastic [pedestrian bridge][ped-bridge].
 
+<div class="carousel">
+	<figure>
+		<img alt="Orsi's pizza" src="orsis-pizza.jpg" />
+	</figure>
+	<figure>
+		<img alt="Omaha pedestrian bridge" src="omaha-ped-bridge.jpg" />
+	</figure>
+</div>
+
 It was getting dark by then, so we finally went to check into our hotel. Despite being relatively inexpensive, the [Aksarben Suites][aksarben] is a pretty and comfortable place to spend the night. We hit up the pool for a little bit before turning in, where I stayed up much longer than I should have writing this post.
 
+<div class="carousel">
+	<figure>
+		<img alt="Our hotel in Omaha" src="aksarben-1.jpg" />
+	</figure>
+	<figure>
+		<img alt="" src="aksarben-2.jpg" />
+	</figure>
+	<figure>
+		<img alt="" src="aksarben-3.jpg" />
+	</figure>
+</div>
+
 Tomorrow we're heading to Valentine, NE to check out the [Fort Niobrara National Wildlife Refuge][niobrara].
+
+---
+
+[*Full trip album*][photos]
 
 [modern-romance]: https://www.audible.com/pd/Nonfiction/Modern-Romance-Audiobook/B00UKEQK82
 [off-the-wall]: http://www.offthewallcafe.com/
@@ -108,3 +129,4 @@ Tomorrow we're heading to Valentine, NE to check out the [Fort Niobrara National
 [orsis]: http://orsibakery.com/
 [valentine]: https://visitvalentine.org/
 [niobrara]: https://www.fws.gov/refuge/fort_niobrara/
+[photos]: https://goo.gl/photos/s6D4FYv8uWmbNhiT8

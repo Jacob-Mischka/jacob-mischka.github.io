@@ -56,7 +56,8 @@ export default class Post extends Component {
 		let carousels = Array.from(document.querySelectorAll('.carousel'));
 		for (let carousel of carousels) {
 			new Flickity(carousel, {
-				cover: true
+				cover: true,
+				imagesLoaded: true
 			});
 		}
 	}
