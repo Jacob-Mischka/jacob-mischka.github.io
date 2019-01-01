@@ -19,9 +19,9 @@
 	border-radius: 50%;
 }
 
-/*.page-content {
-	background-color: var(--content-background-color);
-}*/
+.page-content {
+	padding: 1em;
+}
 
 .post-list {
 	margin-left: 0;
