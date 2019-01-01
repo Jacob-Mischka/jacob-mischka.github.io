@@ -2,8 +2,7 @@ const each = require('lodash/each');
 const Promise = require('bluebird');
 const path = require('path');
 
-exports.createPages = ({ graphql, boundActionCreators }, pluginOptions) => {
-	const { createPage } = boundActionCreators;
+exports.createPages = ({ graphql, actions: { createPage } }, pluginOptions) => {
 	const {
 		pageTemplate,
 		postTemplate
@@ -49,8 +48,7 @@ exports.createPages = ({ graphql, boundActionCreators }, pluginOptions) => {
 	});
 };
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-	const { createNodeField } = boundActionCreators;
+exports.onCreateNode = ({ node, actions: { createNodeField }, getNode }) => {
 
 	if (node.internal.type === 'File') {
 		const parsedPath = path.parse(node.relativePath);

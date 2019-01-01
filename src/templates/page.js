@@ -1,16 +1,11 @@
-/* global graphql */
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
+import { graphql } from 'gatsby';
 
-export default class Post extends Component {
-	static propTypes = {
-		data: PropTypes.object
-	};
+import Layout from '../components/Layout.js';
 
-	render() {
-		const page = this.props.data.markdownRemark;
-
-		return (
+export default function Post({ data: { markdownRemark: page } }) {
+	return (
+		<Layout>
 			<section className="page">
 				<header className="page-header">
 					<h1 className="page-title">
@@ -21,24 +16,15 @@ export default class Post extends Component {
 				<article className="page-content"
 					dangerouslySetInnerHTML={{__html: page.html}}></article>
 			</section>
-		);
-	}
+		</Layout>
+	);
 }
 
 export const pageQuery = graphql`
 	query PageByPath($slug: String!) {
-		site {
-			siteMetadata {
-				title
-				author
-			}
-		}
 		markdownRemark(fields: { slug: { eq: $slug } }) {
 			id
 			html
-			fields {
-				slug
-			}
 			frontmatter {
 				title
 			}
